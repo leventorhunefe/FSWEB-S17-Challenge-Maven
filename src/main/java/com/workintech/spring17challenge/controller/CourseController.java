@@ -16,6 +16,7 @@ import org.springframework.web.bind.annotation.*;
 import java.util.ArrayList;
 import java.util.List;
 
+@CrossOrigin("*") //cors hatasını bu yolla çözebiliyoruz
 @RestController
 @RequestMapping("/courses")
 public class CourseController {
